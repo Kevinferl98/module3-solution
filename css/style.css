@@ -1,0 +1,78 @@
+body{
+    font-size: 16px;
+    color: black;
+    background-color: slategray;
+}
+
+#header-nav{
+    background-color: gainsboro;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button{
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: grey;
+}
+
+.navbar-collapse{
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a{
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1{
+    color: black;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px grey;
+}
+
+#nav-list a{
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover{
+    color: white;
+    background-color: grey;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1.5px solid black;
+}
+
+#main-content{
+    width: 92%;
+}
+
+#main-content h2{
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3{
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section{
+    background-color: gainsboro;
+    box-shadow: 0 0 50px grey;
+    padding: 30px;
+}
